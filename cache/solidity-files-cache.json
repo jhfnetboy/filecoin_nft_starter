@@ -586,6 +586,120 @@
       "artifacts": [
         "Base64"
       ]
+    },
+    "/Users/jason/Dev/Demos/filecoin_nft_starter/contracts/EventExample.sol": {
+      "lastModificationDate": 1652155126507,
+      "contentHash": "8f99c751ac58f649f60ce65f77fe0c2f",
+      "sourceName": "contracts/EventExample.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EventExample"
+      ]
+    },
+    "/Users/jason/Dev/Demos/filecoin_nft_starter/contracts/Walker.sol": {
+      "lastModificationDate": 1652085205886,
+      "contentHash": "4cb114a1e45c1fb912988151716a25bf",
+      "sourceName": "contracts/Walker.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FilecoinNFTHack"
+      ]
+    },
+    "/Users/jason/Dev/Demos/filecoin_nft_starter/contracts/GameEngine.sol": {
+      "lastModificationDate": 1652151103379,
+      "contentHash": "8a4a1e718ec5430a1992e488c164c8a1",
+      "sourceName": "contracts/GameEngine.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SaveGame"
+      ]
     }
   }
 }
