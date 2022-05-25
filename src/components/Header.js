@@ -1,11 +1,11 @@
 import React from "react";
-import nftHackLogo from "../assets/nfthack-logo.svg";
+import nftHackLogo from "../assets/nfthack-logo.png";
 
 const Header = () => {
   return (
     <>
       <a
-        href="https://hackathons.filecoin.io/"
+        href="https://github.com/jhfnetboy/"
         target="_blank"
         rel="noreferrer"
       >
@@ -15,9 +15,9 @@ const Header = () => {
           src={nftHackLogo}
         ></img>
       </a>
-      <p className="header gradient-text">NFTHack NFT Collection</p>
+      <p className="header gradient-text">Soul Bound NFTs Collection</p>
       <p className="sub-text">
-        100 personalised NFTs for Filecoin @ EthGlobal NFTHack 2022
+        Limited NFTs for SBTs to mint
       </p>
     </>
   );

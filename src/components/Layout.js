@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import filecoinLogo from "../assets/filecoin-logo.png";
+import ETHShanghaiLogo from "../assets/ETHShanghaiLogo.png";
 
 const Layout = (props) => {
   return (
     <div className="App">
       <div className="container">
         <div className="header-menu-container">
-          <a href="https://filecoin.io/build" target="_blank" rel="noreferrer">
+          <a href="https://www.ethshanghai.org/zh" target="_blank" rel="noreferrer">
             <img
-              alt="Filecoin Foundation Logo"
+              alt="ETH Shanghai Logo"
               style={{ height: "50px" }}
-              src={filecoinLogo}
+              src={ETHShanghaiLogo}
             />
           </a>
           <button

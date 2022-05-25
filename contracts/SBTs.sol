@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol"; //alows for console.logs in a solidity contract"
 
-contract FilecoinNFTHack is ERC721URIStorage {
+contract SBTsHack is ERC721URIStorage {
 
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
@@ -24,8 +24,8 @@ contract FilecoinNFTHack is ERC721URIStorage {
 
     /* tokenURI
     {
-        "name": "Their name + Filecoin @ NFTHack 2022"
-        "description": "NFT created for EthGlobal NFTHack 2022 and limited to 100 tokens"
+        "name": "Their name + Filecoin @ 2022"
+        "description": "NFT created for EthShangHai2022 and limited to 10000 tokens"
         "image": //IPFS pinned file content CID (can be any mime type)
         "other data like version, strenth, etc....": ""
     }
@@ -34,9 +34,9 @@ contract FilecoinNFTHack is ERC721URIStorage {
     event RemainingMintableNFTChange(uint256 remainingMintableNFTs);
 
     //This sets our collection details. Anything minted by this contract will fall under this header
-    constructor() ERC721 ("EthGlobal NFTHack2022", "Filecoin Starter NFTs") {
-        console.log("This is my NFT contract");
-        maxNFTs=100; //set a limit to number of nft's that are mintable
+    constructor() ERC721 ("ETH Shanghai Hackthon", "Soul Bound Tokens") {
+        console.log("This is my SBTs contract");
+        maxNFTs=10000; //set a limit to number of nft's that are mintable
     }
 
     function mintMyNFT(string memory ipfsURI) public {
