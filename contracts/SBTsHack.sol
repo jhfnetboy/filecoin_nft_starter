@@ -25,7 +25,7 @@ contract SBTsHack is ERC721URIStorage {
     /* tokenURI
     {
         "name": "Their name + Filecoin @ 2022"
-        "description": "NFT created for EthShangHai2022 and limited to 10000 tokens"
+        "description": "NFT created for EthShangHai Hackthon 2022 and limited to 10000 tokens"
         "image": //IPFS pinned file content CID (can be any mime type)
         "other data like version, strenth, etc....": ""
     }

@@ -234,7 +234,7 @@ export const baseSVG = `<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 	AI3Gx2gB0Gh8jBYAjcbHaAHQaHyMFgCNxsdoAdBofMz/B9gJwqyuhsNFAAAAJXRFWHRkYXRlOmNy
 	ZWF0ZQAyMDIyLTA1LTI1VDAzOjAzOjIxKzAwOjAwAIy0HQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAy
 	Mi0wNS0yNVQwMzowMzoyMSswMDowMHHRDKEAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5v
-	cmeb7jwaAAAAAElFTkSuQmCC" x="-146.5" y="-300" width="256" height="256"></image>
+	cmeb7jwaAAAAAElFTkSuQmCC" x="-146.5" y="-300" width="856" height="856"></image>
 </g>
 <g transform="matrix(1 0 0 1 540 692.88)" style="" id="c2d363fb-e253-4873-8030-833cf05bbbff"  >
 		<text xml:space="preserve" font-family="Alegreya" font-size="70" font-style="normal" font-weight="700" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-198.24" y="21.99" >2022-05-22 by jhfnetboy</tspan></text>

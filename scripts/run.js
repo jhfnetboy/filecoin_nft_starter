@@ -7,7 +7,7 @@
 
 const main = async () => {
   const nftContractFactory = await hre.ethers.getContractFactory(
-    "FilecoinNFTHack"
+    "SBTsHack"
   );
   const nftContract = await nftContractFactory.deploy();
   await nftContract.deployed();
