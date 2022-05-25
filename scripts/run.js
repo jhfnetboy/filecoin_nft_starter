@@ -15,8 +15,12 @@ const main = async () => {
 
   // Call the function will base svg and the name?
   let txn = await nftContract.mintMyNFT(
-    "ipfs://bafyreiah6nfc5ht2rifpnwuqssq6mkxhtjurrrcgnn7ms42d755edt7nqy/metadata.json"
+    "ipfs://bafkreiazr3iu35vhxl6cdzv4jf72pkdojhhhaitqtfyhto4fwnpb4gs6xm"
   );
+
+  // ipfs://bafkreiazr3iu35vhxl6cdzv4jf72pkdojhhhaitqtfyhto4fwnpb4gs6xm, hero2.json
+  // bafkreibkivaj2aptjufgykvmygcuyx77ott6fzgiggwpsh7dq7umktv25m  , rainbow.svg
+  // ipfs://bafkreibkivaj2aptjufgykvmygcuyx77ott6fzgiggwpsh7dq7umktv25m
   // Wait for it to be mined.
   await txn.wait();
 };
