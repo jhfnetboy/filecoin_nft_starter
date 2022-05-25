@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 /* ERC71 based Solidity Contract Interface */
 import filecoinNFTHack from "./utils/FilecoinNFTHack.json";
+import SBTsHack from "./utils/SBTsHack.json";
 
 /* NFT.Storage import for creating an IPFS CID & storing with Filecoin */
 import { NFTStorage, File } from "nft.storage";
@@ -120,7 +121,8 @@ const App = () => {
         const signer = provider.getSigner();
         const connectedContract = new ethers.Contract(
           CONTRACT_ADDRESS,
-          filecoinNFTHack.abi,
+          // filecoinNFTHack.abi,
+          SBTsHack.abi,
           signer
         );
 
@@ -185,9 +187,9 @@ const App = () => {
     try {
       await client
         .store({
-          name: `${name}: Filecoin @ NFTHack 2022`,
+          name: `${name}: SBTs@ ETH Shanghai Hackthon 2022`,
           description:
-            "NFT created for EthGlobal NFTHack 2022 and limited to 100 personalised tokens",
+            "NFT created for ETH Shanghai Hackthon 2022 and limited to 10000 NFT tokens",
           image: new File(
             [
               `${baseSVG}${name}</text>
@@ -250,7 +252,8 @@ const App = () => {
         const signer = provider.getSigner();
         const connectedContract = new ethers.Contract(
           CONTRACT_ADDRESS,
-          filecoinNFTHack.abi,
+          // filecoinNFTHack.abi,
+          SBTsHack.abi,
           signer
         );
 
@@ -349,7 +352,8 @@ const App = () => {
         const signer = provider.getSigner();
         const connectedContract = new ethers.Contract(
           CONTRACT_ADDRESS,
-          filecoinNFTHack.abi,
+          // filecoinNFTHack.abi,
+          SBTsHack.abi,
           signer
         );
 
